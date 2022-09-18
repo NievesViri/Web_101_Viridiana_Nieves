@@ -1,22 +1,8 @@
-
-
-*{
-    /* box-sizing: border-box; */
-    
-    }
-    
-    /* .border-magenta {
-    border: 1px solid magenta;
-    } */
-    
-    
-    .border-blue{
+ .border-blue{
     border: 1px solid blue;
     }
     
-    /* .border-red {
-    border: 1px solid red;
-    } */
+   
      
     .border-green {
     border: 1px solid green;
@@ -43,12 +29,7 @@
    
     main {
     height:  calc(100% - 180px);
-    /* background-color: blue; */
     display:flex;
-    /* justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
-     */
     }
     
     main div {
@@ -57,12 +38,11 @@
     }
     
     main div:nth-child(1) {
-    /* Background: blue; */
     background-image: url(./kevin-fitzgerald-ptclZqiJAuk-unsplash\ \(1\).jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: bottom center;
-    height:auto;
+    height: 846px;
     
 }
     
