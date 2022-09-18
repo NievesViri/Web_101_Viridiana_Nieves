@@ -1,77 +1,142 @@
-* {
-    box-sizing: border-box;
-}
-.border-magenta {
+
+
+*{
+    /* box-sizing: border-box; */
+    
+    }
+    
+    /* .border-magenta {
     border: 1px solid magenta;
-}
-.border-blue {
+    } */
+    
+    
+    .border-blue{
     border: 1px solid blue;
-}
-.border-red {
+    }
+    
+    /* .border-red {
     border: 1px solid red;
-}
-.border-green {
+    } */
+     
+    .border-green {
     border: 1px solid green;
-}
-
-body {
+    }
+    
+    body {
     margin: 0;
-}
-.main-contaier {
-    height: 100vh;
-}
 
-header {
-height: 180px;
-display: flex;
-flex-direction: column;
-/* background-color: red; */
-}
-
-header div.logo {
-flex: 1;
-padding: 20px;
-}
-
-header div.logo h1 {
-    margin: 0;
-}
-header nav {
-    flex: 1;
-    padding: 20px;
-}
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 380px;
+    }
+    .main-container {
+    height: 100%;
+    
+    
+    }
+    header {
+    height: 180px;
+    margin: auto;
     display: flex;
-    flex-direction: row;
+    Flex-direction: column;
+    background-color: rgb(33, 67, 40);
+    border-bottom: solid rgba(7, 7, 7, 0.386);
+    }
+
+   
+    main {
+    height:  calc(100% - 180px);
+    /* background-color: blue; */
+    display:flex;
+    /* justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
+     */
+    }
+    
+    main div {
+    Flex: 1;
+    
+    }
+    
+    main div:nth-child(1) {
+    /* Background: blue; */
+    background-image: url(./kevin-fitzgerald-ptclZqiJAuk-unsplash\ \(1\).jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height:auto;
+    
+}
+    
+    main div:nth-child(2) {
+    background: rgb(33, 67, 40);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    }	
+    
+    @media (max-width: 768px){
+    Main {
+    Flex-direction: column-reverse;
+    }
+    }
+   
+    header div.logo {
+    flex:1;
+    }
+    header nav {
+    flex: 1;
+    }
+    
+    header nav ul {
+    list-style: none;
+    padding: 40px;
+    padding-left: 40%;
+    margin: 40px;
+    Width: 380px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
     justify-content: space-between;
 }
+
 header nav ul li {
-   font-size: 20px; 
+font-size: 20px;
+font-family: fantasy;
+color: rgb(162, 172, 172);
 }
-main {
-height: calc(100%-180px);
-/* background-color: blue; */
-display: flex;
+ img.box1 {
+    height: 250px;
+    width: auto;
+    border: 5px groove rgb(88, 166, 173);
+border-radius: 40px;
+ }
+ img.box3 {
+    height: 250px;
+    width:543px;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: right;
+    border: 5px groove rgb(88, 166, 173);
+      border-radius: 40px;
+ }
+h1 {
+   padding: 20px;
+   padding-left: 50%;
+   font-family: 'Lobster', cursive;
+   color:rgb(88, 166, 173);
+   
+  
 }
-main div {
-    flex: 1;
-}
-main div:nth-child(1) {
-    background: blue;
-}
-main div:nth-child(2) {
-    background: green;
+p {
+    font-family: fantasy;
+    padding-left: 10px;
+    padding-top: 50px;
+    color: rgb(88, 166, 173);
+    font-size: large;
+
 }
 
 
 
-@media (max-width:768px) {
-    main {
-        flex-direction: column-reverse;
-    }
-}
