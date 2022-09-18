@@ -2,6 +2,51 @@
     box-sizing: border-box;
 }
 body {
-    background-color: red;
+height: auto;
+width: 200px;
+background-color:#def;
+background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+background-size:80px 80px;
+background-position:0 0, 40px 40px;
+}
+.main-container {
+    
+    width: 1400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ultra', serif;
 
 }
+.form-group {
+    font-size: x-large;
+    color:rgb(33, 66, 66);
+}
+input {
+    height: 30px;
+    width: 300px;
+   
+}
+
+p {
+    display: inline-block;
+    position: absolute;
+    font-size: xx-large;
+    font-family: 'Ultra', serif;
+    text-transform: uppercase;
+    padding-left: 350px;
+color: rgb(33, 66, 66);
+}  
+button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(3, 31, 21);
+color: whitesmoke;
+font-size: medium;
+}
+button:hover {
+    color: gray;
+}  
+
